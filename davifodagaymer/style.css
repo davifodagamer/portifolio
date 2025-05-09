@@ -1,0 +1,39 @@
+/* Reset e estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background-color: aliceblue;
+    color: black;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* Cabecalho */
+header {
+     background: linear-gradient(135deg, #3498db, #2c3e50);
+     color: aliceblue;
+     text-align: center;
+     padding: 2rem 0;
+     position: relative;
+}
+
+.profile-img {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     object-fit: cover;
+     border: 5px solid white;
+     margin-bottom: 1rem;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
